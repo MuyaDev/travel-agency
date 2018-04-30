@@ -56,8 +56,8 @@ main {
 }
 
 footer {
-  height: 50px;
-  background-color: #494949;
+  height: 30px;
+  background-color: #33ccff;
   color: #fff;
   display: flex;
   align-items: center;
@@ -65,6 +65,7 @@ footer {
   bottom: 0;
   position: fixed;
   width: 100%;
+  font-size: 20px;
 }
 
 .menu_show {
@@ -88,8 +89,7 @@ footer {
   font-family: 'Dancing Script', cursive;
   background-image: url("../img/front.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 1000px;
+  background-size: cover;
   text-align: left;
 }
 
@@ -141,5 +141,41 @@ img {
 }
 
 .well {
+  font-family: 'Montserrat', sans-serif;
   margin: 120px 50px;
+  background-image: url("../img/j.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
 }
+
+/* topnav stuff */
+
+.topnav {
+  background-color: #33ccff;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+  background-color: #ffa64d;
+  color: white;
