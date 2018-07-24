@@ -55,3 +55,47 @@ li a:hover {
   background-color: teal;
   color: yellow;
 }
+
+#travel {
+  background-image: url(../img/travel.jpg);
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 1500px;
+}
+
+#message {
+  border-left: 6px solid red;
+  height: 200px;
+  position: relative;
+  left: 150px;
+  margin-left: -3px;
+  top: 900px;
+}
+
+#message h3 {
+  color: white;
+  opacity: 0.7;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+#message h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+  color: whitesmoke;
+  white-space: pre-line;
+  word-wrap: break-word;
+  width: 500px;
+}
+
+#destinations {
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+}
+
+#destinations #kenya {
+  flex: 33.33%;
+  padding: 5px;
+}
